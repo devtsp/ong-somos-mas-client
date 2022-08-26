@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const ong_api = axios.create({
-  baseURL: 'https://somosmas-ong.herokuapp.com/api',
+  baseURL: 'https://ong-somos-mas-server.onrender.com/api',
 });
 
 const fetchApi = async ({ method = 'get', url = '/', data = {}, params = {}, headers = {} }) => {
